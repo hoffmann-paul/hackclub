@@ -195,3 +195,8 @@ nav a:hover {
         font-size: 48px;
     }
 }
+
+nav a.active {
+    color: #ec3750;
+    font-weight: bold;
+}
