@@ -149,3 +149,49 @@ nav a:hover {
     color: #c9d1d9;
     line-height: 1.6;
 }
+
+@media (max-width: 900px) {
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        padding: 25px 6%;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav {
+        padding: 20px 6%;
+        gap: 15px;
+    }
+
+    main {
+        padding: 40px 6%;
+    }
+
+    .hero {
+        padding: 50px 6%;
+    }
+
+    .projects-preview {
+        padding: 60px 6%;
+    }
+
+    .hero h2 {
+        font-size: 48px;
+    }
+}
